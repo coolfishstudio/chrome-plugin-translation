@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/public/css/popup.css" />
+    <script src="/public/js/jquery.min.js"></script>
+    <script src="/public/js/md5.js"></script>
+    <script src="/public/js/popup.js"></script>
+</head>
+<body id="popup_body">
+    <div id="popup_container">
+        <textarea id="from" placeholder="请输入要查询的内容"></textarea>
+        <textarea id="to" readonly="readonly"></textarea>
+    </div>
+    <div id="footer_bar">
+        <select id="selectbar">
+            <option value="0">自动</option>
+            <option value="1">英译汉</option>
+            <option value="2">汉译英</option>
+        </select>
+        <a href="javascript:void(0);" class="trans_btn">翻&nbsp;&nbsp;译</a>
+    </div>
+</body>
+</html>
